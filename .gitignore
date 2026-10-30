@@ -1,0 +1,6 @@
+dist/
+.wrangler/
+node_modules/
+*.key
+*.gpg
+!public/**/*.gpg
