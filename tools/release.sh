@@ -107,13 +107,13 @@ if [[ $dry_run == --dry-run ]]; then
 fi
 
 (cd "$files" && sha256sum -- * | grep -v ' SHA256SUMS$' > SHA256SUMS)
+cd "$root"
 if gh release view "v$version" >/dev/null 2>&1; then
   gh release upload "v$version" "$files"/* --clobber
 else
   gh release create "v$version" "$files"/* --title "Farpane $version" \
     --notes "Install and setup: https://www.spidey.in/farpane/"
 fi
-cd "$root"
 git add public
 git commit -m "Repo metadata for $version"
 git push

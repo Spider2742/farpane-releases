@@ -1,6 +1,6 @@
-// Serves the repo metadata from public/ and sends package downloads to their GitHub release.
+// Serves the repo metadata from public/ and sends package and app downloads to their GitHub release.
 const RELEASES = "https://github.com/Spider2742/farpane-releases/releases/download";
-const PACKAGE = /^farpane[-_](\d+\.\d+\.\d+)-[\w.]+\.(?:rpm|deb)$/;
+const PACKAGE = /^farpane[-_](\d+\.\d+\.\d+)(?:-[\w.]+)?\.(?:rpm|deb|apk|flatpak)$/;
 
 export default {
   async fetch(request, env) {
