@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://farpane-packages.spidey.in/apt
+Suites: debian13
+Components: main
+Signed-By: /etc/apt/keyrings/farpane.asc

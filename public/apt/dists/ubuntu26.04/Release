@@ -1,0 +1,10 @@
+Origin: Farpane
+Label: Farpane
+Suite: ubuntu26.04
+Codename: ubuntu26.04
+Architectures: amd64
+Components: main
+Date: Fri, 30 Oct 2026 16:51:00 +0000
+SHA256:
+ 0057e93f0a17b8c19f854126028059f767a59fd24e0c8110d52d0a488d1b699a 972 main/binary-amd64/Packages
+ 7ba4e974f0d37a5c67491ba3af09eb1bfc5a3f734cbcb282f763b13711728a99 568 main/binary-amd64/Packages.gz

@@ -1,0 +1,18 @@
+Package: farpane
+Version: 0.1.3-1.ubuntu26.04
+Architecture: amd64
+Maintainer: Spidey <support@spidey.in>
+Depends: libpython3.14, adb, gir1.2-adw-1, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gir1.2-gtk-4.0, gstreamer1.0-pipewire, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, pulseaudio-utils, python3-cryptography, python3-evdev, python3-gi, gstreamer1.0-plugins-extra
+Recommends: gstreamer1.0-plugins-ugly, mesa-va-drivers
+Filename: pool/farpane_0.1.3-1.ubuntu26.04_amd64.deb
+Size: 750404
+MD5sum: 8cfaf854fe527a6432ba93907192e934
+SHA1: eda1c07392019d87700b52b611dfa6d20e39b095
+SHA256: bb03f00e6a110bf7360bf51294b9aa69342d1352ba7be3e4431dad51fd8f7bd5
+Section: utils
+Priority: optional
+Homepage: https://www.spidey.in/farpane/
+Description: Use an Android phone or tablet as a second monitor
+ Farpane turns an Android phone or tablet into a real second monitor for GNOME
+ on Wayland, over USB or Wi-Fi, with touch, pen and sound.
+

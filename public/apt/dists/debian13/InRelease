@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Farpane
+Label: Farpane
+Suite: debian13
+Codename: debian13
+Architectures: amd64
+Components: main
+Date: Fri, 30 Oct 2026 16:51:00 +0000
+SHA256:
+ 5897a6b981f05c8ede99703cec29175f962923031e39c2af6b81c2c7c582c5fc 946 main/binary-amd64/Packages
+ d2330e7d4ea33b9497d3101794f6357ecfc7686961c519dc12932a202be4b2cc 566 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEEhICCh2Dz25d/OUnOCc+TVnXckkFAmrkyvQACgkQOCc+TVnX
+ckkachAAr7pfkpeoYACqRkcGx2BN6pu3r7BC9kh/emwGZX8HAYwfdy4iSCG1/iE/
+2bptGCwV80wXjF3UyBkCdAHgpntC7zhuZnMQsT85w/lPB0pZTYVxd0FUYbhzqkd0
+v0rMqh+qYTbQbRnBAJmeTvh4nPgpWzL8XLLBP+GqcRF7PSVm+i4bAl3AzYcp9eMU
+/Dxl1g2/npsob+2R1QznQ660460t85zhoOFyqFfcwObzTpjY3guDVeKXnkpMsxyn
+TOH8FWHWxUCIz6JmhbWLYKxv519IF0K7gDLEyfBwOwoi6oCrCs7NAahRRUBwEOog
+vszMaT0tTRgS8qUsp8xCFJtO0mt2Zo+ScMjd0fA0RI70UHqKkYi0J9LJHQhU3eQ2
+q1aRaWr9GbMOi8RirpqoDTqikVtcxegHD/pnvIYfgHwvN3truP7ypT5i6oX5IQBg
+27EtYR1xvqF0zSdn+gzqPHN3I00ihc5eqLCkAGu+BrvsZA9YKcBrrCugwYVOPutH
+85p/IfjdM53aYiwx24IGLO6hEecc+76jGUrKJrDi0CUa23/22QRyt9qX7CGdnuhn
+pHiUiU1qcs3osz2pvkYkEZKqG9PFKj1RJpmCYLWwoWyHfJC+GLiffe40PlIfBu77
+pgUfVuh07cujOOiwhnQ+tnZ+yDp2IWCYzAWaAaS+DZX9YJxZcww=
+=HVeN
+-----END PGP SIGNATURE-----

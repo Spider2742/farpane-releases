@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Farpane
+Label: Farpane
+Suite: ubuntu26.04
+Codename: ubuntu26.04
+Architectures: amd64
+Components: main
+Date: Fri, 30 Oct 2026 16:51:00 +0000
+SHA256:
+ 0057e93f0a17b8c19f854126028059f767a59fd24e0c8110d52d0a488d1b699a 972 main/binary-amd64/Packages
+ 7ba4e974f0d37a5c67491ba3af09eb1bfc5a3f734cbcb282f763b13711728a99 568 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEEhICCh2Dz25d/OUnOCc+TVnXckkFAmrkyvQACgkQOCc+TVnX
+ckmSqw//UVzh+2HPBzM5P+jyu/aw9EevnmFVNfOD942Om4MfyvI67QT7HDVqmLlD
+2izaWqCYHrVymNob4JPfV32nZtbA3ss4Gzx1UslAH+Sdkd8vMUR0QoQIyLR63IN3
+P/8hYpyPB1YOvCMsnJ+mp7EQNIRQR6deogLMQ254TSi5vi8u7X1QzXD8le9ptvXe
+lg9G0K5QyWNSQncZcMaAH8pzN8G7Pnv5DVkb/SfUDJNJxN3WkquzaJap2+fKYBQu
+8vI+BYR0I52+ogVefsCM4fvQYNyVGN7LwXTFZxPcYtoaaxgP0fGPxycAky1Ber4e
+VAnh2DH7LHOXyqmUhcUqKcfrrb/wygdxXPRtH4e0oVtbyCYEYvV20E5gp/AEZ1mk
+11EGCwsbXlBzK4l54Bi2NN7yQJ7CTRWC5ePDzHhpNdyFC4kaAk157cowJCbefTAe
+LcENPn7Nteota8EhTJd3K261ksg0QTbnlPDxHZbeN/mLJicZpRJ4BqZyskz3fq8l
+XCZma+FMa7e9BpQdEYsRX+W+0nGrh4c5SH1T8zvKzB2SVCxrUyprrj4XvMEoHPIP
+r5vEPnEWLDHWv5j+hNIxz3QE4AOu6P5VqwNrej1TMHbrUWXwzBEZHuCxm/FAI1gU
+0i1LBdsDcmOZsQob2Wbwu4ZtFA+LRC+ewqHZr1WW7RvcMSuvjQs=
+=ds/0
+-----END PGP SIGNATURE-----

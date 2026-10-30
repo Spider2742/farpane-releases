@@ -1,0 +1,10 @@
+Origin: Farpane
+Label: Farpane
+Suite: debian13
+Codename: debian13
+Architectures: amd64
+Components: main
+Date: Fri, 30 Oct 2026 16:51:00 +0000
+SHA256:
+ 5897a6b981f05c8ede99703cec29175f962923031e39c2af6b81c2c7c582c5fc 946 main/binary-amd64/Packages
+ d2330e7d4ea33b9497d3101794f6357ecfc7686961c519dc12932a202be4b2cc 566 main/binary-amd64/Packages.gz
