@@ -101,6 +101,26 @@ Signed-By: /etc/apt/keyrings/farpane.asc
 EOF
 done
 
+# What the website reads for the version, sizes, checksums and links.
+python3 - "$version" "$files" "$url" > "$public/latest.json" <<'EOF'
+import glob, hashlib, json, os, sys
+version, files, url = sys.argv[1:]
+latest = {"version": version}
+for kind, pattern in (("apk", "*.apk"), ("flatpak", "*.flatpak"), ("rpm", "*.rpm")):
+    for path in glob.glob(os.path.join(files, pattern)):
+        name = os.path.basename(path)
+        with open(path, "rb") as f:
+            sha256 = hashlib.sha256(f.read()).hexdigest()
+        latest[kind] = {"file": name, "url": f"{url}/download/{name}", "sha256": sha256,
+                        "size": f"{os.path.getsize(path) / 1e6:.1f} MB"}
+print(json.dumps(latest, indent=2))
+EOF
+cat > "$public/_headers" <<EOF
+/latest.json
+  Access-Control-Allow-Origin: https://www.spidey.in
+  Cache-Control: public, max-age=300
+EOF
+
 if [[ $dry_run == --dry-run ]]; then
   echo "built $public, nothing uploaded"
   exit 0

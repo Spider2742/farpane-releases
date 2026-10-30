@@ -11,7 +11,10 @@ Farpane's source code isn't here. Bugs and questions: support@spidey.in, or
 GitHub Releases holds every file. `farpane-packages.spidey.in`, a Cloudflare Worker (`worker/index.js`),
 holds the signed DNF and APT metadata (`public/`) and redirects each package request to its release
 file, so DNF and APT see one normal repo. App downloads work the same way:
-`/download/farpane-<version>.apk` and `.flatpak`. Cloudflare deploys it from this repo on every push.
+`/download/farpane-<version>.apk` and `.flatpak`.
+
+Each release also writes `latest.json`, which the download page reads for the version, sizes,
+SHA-256 and links, so a release needs no website edit. Cloudflare deploys it from this repo on every push.
 
 ## Publishing a release
 
