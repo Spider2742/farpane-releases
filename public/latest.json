@@ -1,0 +1,21 @@
+{
+  "version": "0.1.2",
+  "apk": {
+    "file": "farpane-0.1.2.apk",
+    "url": "https://farpane-packages.spidey.in/download/farpane-0.1.2.apk",
+    "sha256": "e0f3a96e0c9ad52a397d0098749716f0368a88bffbe893cb553765b1c73cd686",
+    "size": "2.4 MB"
+  },
+  "flatpak": {
+    "file": "farpane-0.1.2.flatpak",
+    "url": "https://farpane-packages.spidey.in/download/farpane-0.1.2.flatpak",
+    "sha256": "c5531f9d2c034589749ef061af2fd8dfa8f113a720d45d7869f227f4b96f9772",
+    "size": "6.5 MB"
+  },
+  "rpm": {
+    "file": "farpane-0.1.2-1.fc44.x86_64.rpm",
+    "url": "https://farpane-packages.spidey.in/download/farpane-0.1.2-1.fc44.x86_64.rpm",
+    "sha256": "f53b123341e9f51373914ee2be06086744324fc80754630cd622951b21d549f1",
+    "size": "0.8 MB"
+  }
+}

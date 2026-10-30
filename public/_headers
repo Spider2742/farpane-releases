@@ -1,0 +1,3 @@
+/latest.json
+  Access-Control-Allow-Origin: https://www.spidey.in
+  Cache-Control: public, max-age=300
