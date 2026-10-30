@@ -6,7 +6,7 @@ set -euo pipefail
 version=${1:?usage: release.sh <version> [--dry-run]}
 dry_run=${2:-}
 key=${FARPANE_GPG_KEY:?set FARPANE_GPG_KEY to the signing key}
-url=https://packages.spidey.in
+url=https://farpane-packages.spidey.in
 root=$(cd "$(dirname "$0")/.." && pwd)
 files=$root/dist/$version
 [[ -d $files ]] || { echo "no $files" >&2; exit 1; }
