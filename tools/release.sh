@@ -117,7 +117,7 @@ print(json.dumps(latest, indent=2))
 EOF
 cat > "$public/_headers" <<EOF
 /latest.json
-  Access-Control-Allow-Origin: https://www.spidey.in
+  Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=300
 EOF
 
