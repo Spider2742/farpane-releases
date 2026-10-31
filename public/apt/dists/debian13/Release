@@ -4,7 +4,7 @@ Suite: debian13
 Codename: debian13
 Architectures: amd64
 Components: main
-Date: Fri, 30 Oct 2026 16:51:00 +0000
+Date: Sat, 31 Oct 2026 10:56:54 +0000
 SHA256:
- 5897a6b981f05c8ede99703cec29175f962923031e39c2af6b81c2c7c582c5fc 946 main/binary-amd64/Packages
- d2330e7d4ea33b9497d3101794f6357ecfc7686961c519dc12932a202be4b2cc 566 main/binary-amd64/Packages.gz
+ 9f7198bf774c1f624035775ed8404fd48f6ff325b7a4ccab683a00f498cb1e49 1892 main/binary-amd64/Packages
+ 3ae89eff941f2bd25db345c6869ea8991d96466e832654e9e466dee7e5385f45 688 main/binary-amd64/Packages.gz
